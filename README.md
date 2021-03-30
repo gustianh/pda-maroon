@@ -12,19 +12,55 @@ Dengan melakukan EDA, kita dapat lebih memahami kondisi dataset yang kita miliki
 
 # Library
 ## ``NumPy``
-![Image by Towards Data Sciebce](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftowardsdatascience.com%2Fhow-to-create-numpy-arrays-from-scratch-3e0341f9ffea&psig=AOvVaw0feka8GGV-F6kA-1C-tKEk&ust=1617184561222000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNDg943g1-8CFQAAAAAdAAAAABAD)
-Adalah library pada Python yang fokus pada scientific computing. NumPy memiliki kemampuan untuk membentuk objek N-dimensional array, yang mirip dengan 69 list pada Python. Keunggulan NumPy array dibandingkan dengan list pada Python adalah konsumsi memori yang lebih kecil serta runtime yang lebih cepat. Cara install :
+![Image by Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/220px-NumPy_logo_2020.svg.png)
+
+Adalah library pada Python yang fokus pada scientific computing. NumPy memiliki kemampuan untuk membentuk objek N-dimensional array, yang mirip dengan 69 list pada Python. Keunggulan NumPy array dibandingkan dengan list pada Python adalah konsumsi memori yang lebih kecil serta runtime yang lebih cepat. 
+
+### **Installing NumPy**
 `pip install numpy` atau
 `conda install numpy`
 
-## **Importing NumPy**
+### **Importing NumPy**
 `import numpy as np`
 
-## ** `Pandas` (Python for Data Analysis)**
-![teks alternatif](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png)
+## **`Pandas` (Python for Data Analysis)**
+![Image by Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png)
 
 Pandas merupakan library yang memudahkan dalam melakukan manipulasi, cleansing
 maupun analisis struktur data. Dengan menggunakan Pandas, dapat memanfaatkan lima fitur
 utama dalam pemrosesan dan analisis data, yaitu load, prepare, manipulate, modelling, dan
 analysis data.
+
+### **Installing Pandas**
+`pip install pandas` atau
+`conda install pandas`
+
+### **Importing Pandas**
+`import pandas as pd`
+
+## **`Matplotlib`**
+![Images by Matplotlib.org](https://matplotlib.org/_static/logo2_compressed.svg)
+Matplotlib merupakan library dari Python yang umum digunakan untuk visualisasi data. Matplotlib memiliki kapabilitas untuk membuat visualisasi data 2 – dimensional. Contoh visualisasi yang dapat dibuat dengan menggunakan matplotlib diantaranya adalah :
+
+1. Line chart (grafik garis)
+2. Bar chart (grafik batang)
+3. Pie chart (grafik lingkaran)
+4. Box plot chart (grafik box plot)
+5. Violin chart
+6. Errorbar chart
+7. Scatter chart
+8. dan lain sebagainya
+
+### **Installing Matplotlib**
+`pip install matplotlib`
+
+### **Importing Matplotlib**
+`import matplotlib.pyplot as plt`
+
+# **Lihat Library Lain dan Dokumentasinya**
+* NumPy : https://numpy.org/ 
+* Matplotlib : https://matplotlib.org/ 
+* Pandas : https://pandas.pydata.org/ 
+* Sklearn : https://scikit-learn.org/
+* Seaborn : https://seaborn.pydata.org/examples/index.html 
 
